@@ -73,8 +73,10 @@ body {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
-
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <a href="http://www.instagram.com" class="fa fa-instagram"></a>
+</div>
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
   <i href="https://www.instagram.com/controlfitsoftware/" class="fa fa-instagram w3-hover-opacity"></i>
@@ -115,7 +117,25 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-</script>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
 
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
 </body>
 </html>
